@@ -1,0 +1,18 @@
+funcao inicio() {
+    
+    real m1,m2,m3,m4,media_aritmetica
+  
+
+    escreva( " informe a primeira nota: \n")
+    leia(m1)
+
+    ecreva("informe a segunda nota: \n")
+    leia (m2)
+
+    escreva( "informe a terceira nota: \n")
+    leia(m3)
+ 
+    
+    media_aritmetica = (m1+m2+m3)/3
+
+    escreva (" a media é: ", media_aritmetica)

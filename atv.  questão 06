@@ -1,0 +1,33 @@
+programa {
+  funcao inicio() {
+    // declaraçao de variaveis 
+    real valoresX, valoresY, novos_valores, troca
+
+    // entrada de dados 
+    escreva("informe o valor de x: ")
+    leia (valoresX)
+    escreva (" informe valores de y: ")
+    leia(valoresY)
+
+    // processamento 
+    escreva ("valores de X ,Y antes da troca")
+    escreva ( valoresX)
+    escreva( valoresY)
+
+    troca= valoresX
+    valoresX= valoresY
+    valoresY= troca
+
+    escreva (" valores de X e Y depois da troca")
+    escreva(valoresX)
+    escreva(valoresY)
+    
+
+
+
+
+
+
+    
+  }
+}

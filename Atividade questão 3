@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    float litros, km, totalKm = 0, totalLitros = 0;
+
+    while (1) {
+        printf("Litros consumidos (-1 para sair): ");
+        scanf("%f", &litros);
+
+        if (litros == -1)
+            break;
+
+        printf("Km percorridos: ");
+        scanf("%f", &km);
+
+        printf("Km/litro desse tanque: %.2f\n", km / litros);
+
+        totalKm += km;
+        totalLitros += litros;
+    }
+
+    if (totalLitros > 0)
+        printf("Media total km/litro: %.2f\n", totalKm / totalLitros);
+
+    return 0;
+}
